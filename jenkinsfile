@@ -1,4 +1,4 @@
-master {
+node {
    stage('checkout')
    {
        echo "chekingout the code from git repo"
