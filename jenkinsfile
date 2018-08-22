@@ -1,0 +1,23 @@
+node {
+   stage('checkout')
+   {
+       echo "chekingout the code from git repo"
+   }
+   stage('analyze')
+   {
+       echo "analyzing the code"
+   }
+   stage('unittest')
+   {
+       echo "starting unit testing"
+   }
+   stage('functionaltest')
+   {
+       echo "starting functional testing"
+   }
+   stage('delivery')
+   {
+       echo "starting delivery"
+   }
+   
+}
